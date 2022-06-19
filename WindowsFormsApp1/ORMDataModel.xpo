@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a40be536-fc8e-4255-9a54-ccdcdd7fe6be" namespace="WindowsFormsApp1.devexpress" dataBaseShemaInfo="H4sIAAAAAAAEAMVWbW/iRhD+Xqn/wfKnq5TFr2BzMpwucHdC7Z2ikKvaj2PvOFnVXtPdNSH99R0bQzCQu/QUpeIDzLPz9szODpO825SFtUalRSUntjdw7XfTn39KLkHj0lQKbnEh88oiLanfbrSY2HfGrN46zv39/eA+GFTq1vFd13P++PzbMrvDEpiQ2oDM0N5b8e9b2RTVspIbSAvUTchW3iEHwA6yvkCJExu1qbkAadDeK5DKlRIlqIdf8cFa6K9S/F2TrlF1T4v0ZlVRl1L3QIK1UULeTgVPnO5nz8o5NUucx5CH8LkAyfxyC1vbr5uHFWW3kCbw7Y6W4DYlTr66rElYcJRGmAPkS10UTSkmdg6FJmh+2bjqPEjzxvN+sS3nGbGXLcldcFmVqSJ3S/EPSeGw73gNKrsD9SYc/pBzWGFRCF69mPte3ZADf0Ydzt7gQnLc4MlVtXDn/up68fn99Z/2N5vqybb6bmOdT6xBuzR6FE7zTT5WCsWtpL7RB3wTp30xj/IH2cpN6onTCfvDudAN8HXFweC07SyK3wP3up9qwRd86kMcReB5zM/9gIUBBgyCNGRpmGUxAARjL02cTnlv3DHtve0nYTpormB72NbvQOypfYvcfyV4SHIcRhgEfsoCD0ZEMs5ZmsfIgiz2Qz8NeeSPTkge3OiP8Ny+xNfnmgGOiCGy3IsiFvLQY2mcI8t8P+MIrpt5w5fmuhsMr8/W90cRAo9YClHGwjT0WepGwFI+Hg65xyH2xi/NthlUr880HI+yNE6B5SOiG0ajnMUYZAxzNx9iRJ8wfDbTc2g3avZIJz+qJM1WgfxKVVkLdmMq+X27gkznuP6wWSnUejAHA4O17w68C6s7njTSIBi4F9asLkytcCKxNgqKC+uqTguR0ei7qf5COUnjmHvRkJ6l62I4hsTZhWjjzQrQGnVzAdf1vrrJe06pYS42+/HZQMs670HXWFZrPFbcose6M9qkpjNYCQMF/eFR0RpgW5tzSdDqUq1QGfF/J/dEHsknlKiowWZVWdJGorsuPYF7ynPU9L+E6qOgZjiy6J+1ZrvN5hLvYC0qRW2RA104vZjjE1pWnaNtdfovOyvPldYKAAA=" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="localhostdevexpress" createdInVersion="20.1.3.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="20.1.3.0" name="devexpress" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <comments>
+    <dataBaseObjectModelHasComments Id="4c2e30a7-2141-4191-b4d6-e3c00dbade45">
+      <comment Id="cc4fc368-1ad7-4c4e-9622-e0870dc7d5a6" text="The 'PRIMARY' index is ignored, because 'id' is a key" name="EstudianteComment">
+        <subjects>
+          <commentReferencesSubjects Id="a38c1f49-0a70-41c3-9bc7-bf709bb3334d">
+            <xpObjectMoniker Id="2a877a11-2f23-43e3-a3b4-b4cc8aaa391b" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+  </comments>
+  <classes>
+    <dataBaseObjectModelHasClasses Id="9ac852a0-57b0-439b-ae89-131e78ee448c">
+      <xpObject Id="2a877a11-2f23-43e3-a3b4-b4cc8aaa391b" name="Estudiante" baseClass="XPLiteObject" userFileName="Estudiante" designerFileName="Estudiante.Designer" className="Estudiante" virtualBaseClass="XPLiteObject" persistent="estudiante" virtualName="Estudiante">
+        <fields>
+          <generalXpObjectHasFields Id="8bff852e-820d-4403-b5ea-9e64e45d97be">
+            <field Id="947e332b-31a6-438f-bf8e-3c8242b4d726" name="Id" columnType="Int32" key="true" isIdentity="true" persistent="id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="28ea0198-25b6-4783-b2b5-31089be62a72">
+            <field Id="cae6438e-f177-4d41-b8fe-c22cdea00c15" name="Nombre" persistent="nombre" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="45" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="146cdc81-b56b-47db-8e43-5a2d1f0dee6a">
+            <field Id="2267ead7-ba7c-4b42-b07a-bd955d1da819" name="Apellido" persistent="apellido" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="45" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a1c2ecc2-528c-4253-bc5f-e07fb243fe36">
+            <field Id="496cb8ba-f6d7-476f-8e3c-ef0f5e7e7e44" name="Edad" columnType="Int32" persistent="edad" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
