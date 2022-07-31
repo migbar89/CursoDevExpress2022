@@ -28,17 +28,9 @@ namespace Reportes
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Orders orden = new Orders(unitOfWork1);
-            //orden.Comments = "asdfs";
-            //orden.OrderDate = DateTime.Today;
-            //orden.OrderNumber = 14789;
-            //orden.RequiredDate = DateTime.Today;
-            //orden.Status = "true";
-            //orden.Save();
-            //unitOfWork1.CommitChanges();
 
             ReportFactura reportFactura = new ReportFactura();
-            //reportFactura.Parameters["idorder"].Value = 10100;
+
             reportFactura.Parameters["idorder"].Value = 14789;
             reportFactura.Parameters["idorder"].Visible = false;
 
